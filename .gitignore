@@ -1,0 +1,66 @@
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# --- Virtual environments (including Pipenv's in-project venv) ---
+.venv/
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# --- Packaging / build artifacts ---
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# --- Test & coverage ---
+.pytest_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+*.py,cover
+
+# --- Type checkers / linters ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# --- FastAPI / runtime ---
+# (general logs; uvicorn/gunicorn often write here)
+logs/
+*.log
+
+# --- Environment & secrets ---
+# Keep a sample env committed as `.env.example`
+.env
+.env.*
+!.env.example
+
+# --- Editor / IDE ---
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Optional: uncomment if some developers use VS Code occasionally
+# .vscode/
+
+# --- OS junk ---
+.DS_Store
+.AppleDouble
+.LSOverride
